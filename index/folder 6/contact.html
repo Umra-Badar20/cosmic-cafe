@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http.equiv="X-UA" content="IE=edge">
+  <meta name="viewpoint" content="widht-device-widht,intital-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+  <style>
+    .footer {
+      font-family: 'Fauna One', sans-serif;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 8%;
+      background-image: linear-gradient(#cf8f3b, #bd9e65);
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+
+    body {
+      background-color: #f1deba;
+    }
+
+    input[type=text],
+    select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #cf8f3b;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #d3ab77;
+    }
+
+    div {
+      border-radius: 5px;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="logo">
+          <p>Cosmic Café</a></p>
+        </li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../folder 2/about.html"> About Us</a></li>
+        <li><a href="../folder 3/menu.html"> Café Menu</a></li>
+        <li><a href="../folder 4/services.html"> Our Services</a></li>
+        <li><a href="../folder 5/where.html"> Our Location</a></li>
+        <li> <button><a href="../folder 6/contact.html"> Contact Us </a></button></li>
+      </ul>
+
+    </nav>
+
+  </header><br /><br /><br /><br /><br /><br />
+  <h1 style="text-align: center;  font-family: 'Fauna One', sans-serif; font-size: 50px; font-weight: bold; ">Contact Us
+  </h1>
+  <div class="contact">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <p>
+      <p>Gender</p><br />
+      <label for="male">Male</label>
+      <input id="male" type="radio" name="gender" value="m">
+      <label for="female">Female</label>
+      <input id="female" type="radio" name="gender" value="f">
+      </p><br />
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="pakistan">Pakistan</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <p>Comments</p>
+      <textarea name="comments" placeholder="write here.."></textarea>
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <h3>Cosmic Café</h3>
+      <p>2022 © Cosmic Café. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
